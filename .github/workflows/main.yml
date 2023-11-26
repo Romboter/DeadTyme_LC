@@ -17,7 +17,7 @@ jobs:
           description: DeadTyme Lethal Company Modpack 
           token: ${{ secrets.THUNDERSTORE_SECRET }}
           name: DeadTyme # the name of the package
-          version: $GITHUB_REF_NAME # Use the tag as the package version
+          version: v0.${{ github.run_number }}.0 # Use the tag as the package version
           community: lethal-company
           repo: thunderstore.io
           categories: | # <-- notice this pipe character
