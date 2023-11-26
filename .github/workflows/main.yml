@@ -15,7 +15,7 @@ jobs:
         with:
           namespace: DeadTyme # the thunderstore 'team' to publish under
           description: DeadTyme Lethal Company Modpack 
-          token: ${{ secrets.YOUR_TOKEN_NAME }}
+          token: ${{ secrets.THUNDERSTORE_SECRET }}
           name: DeadTyme # the name of the package
           version: $GITHUB_REF_NAME # Use the tag as the package version
           community: lethal-company
