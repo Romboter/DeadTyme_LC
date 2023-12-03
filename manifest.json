@@ -1,6 +1,6 @@
 {
     "name": "DeadTyme_Modpack",
-    "version_number": "1.0.1",
+    "version_number": "1.1.0",
     "website_url": "https://github.com/Romboter/DeadTyme_LC",
     "description": "A modpack for DeadTyme Discord. Includes client side and server side mods.",
     "dependencies": [
