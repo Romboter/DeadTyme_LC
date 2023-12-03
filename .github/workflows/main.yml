@@ -20,5 +20,4 @@ jobs:
           version: v${{ github.ref_name }} # Use the tag as the package version
           community: lethal-company
           repo: thunderstore.io
-          categories: | # <-- notice this pipe character
-            modpacks
+          categories: modpacks
